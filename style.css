@@ -1,21 +1,31 @@
-	.box_a{
-		height: 25%;
-		max-width: 25%
-		padding: 5px;
-		background-color: gray;
-	}
-	.box_b{
-		height: 25%;
-		max-width: 25%
-		padding: 5px;
-		background-color: black;
-	}
-	img{
-		padding-right: 10px;
-		padding-top: 10px;
-		padding-left: 10px	;	
-	}
-	p{
-		color: white;
-		padding-right: 10px;
-	}
+.box_a{
+	height: 25%;
+	max-width: 25%
+	padding: 5px;
+	background-color: gray;
+}
+.box_b{
+	height: 25%;
+	max-width: 25%
+	padding: 5px;
+	background-color: black;
+}
+img{
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-left: 10px	;	
+}
+p{
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+.primer_texto p{
+	color: #000000;
+}
+#text_bg_color{
+	background-color: grey;
+	padding-top: 10px;
+}
