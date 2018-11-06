@@ -1,0 +1,97 @@
+.bandera_espana{
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+.espana_rojo{
+	width: 160px;
+	height: 20px;
+	background-color: red;	
+}
+.espana_amarillo{
+	width: 160px;
+	height: 50px;
+	background-color: yellow;	
+}
+.bandera_dinamarca{
+	width: 200px;
+	height: 150px;
+	margin-left: 200px;
+}
+#Dinamarca{
+	position: relative;
+}
+.dinamarca_rojo{
+	width: 160px;
+	height: 90px;
+	background-color: red;
+}
+.dinamarca_blanco_hor{
+	width: 160px;
+	height: 15px;
+	position: absolute;
+	top: 38px;
+	background-color: white;
+}
+.dinamarca_blanco_ver{
+	width: 15px;
+	height: 90px;
+	position: absolute;
+	left: 40px;
+	top: 0px;
+	background-color: white;
+}
+.bandera_EA{
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+#EA{
+	position: relative;
+}
+.EA_verde{
+	width: 160px;
+	height: 30px;
+	background-color: green;
+}
+.EA_blanco{
+	width: 160px;
+	height: 30px;
+	background-color: white;
+}
+.EA_negro{
+	width: 160px;
+	height: 30px;
+	background-color: black;
+}
+.EA_rojo{
+	width: 30px;
+	height: 90px;
+	background-color: red;
+	position: absolute;
+	top: 0
+}
+.bandera_japon{
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+.japon_blanco{
+	width: 160px;
+	height: 90px;
+	border: solid 1px gray;
+	background-color: white;
+	position: relative;
+}
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;	
+  left: 50%;
+  margin-left: -25px;
+}

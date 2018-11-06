@@ -1,21 +1,38 @@
-.box_a{
-	height: 25%;
-	max-width: 25%
-	padding: 5px;
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar{
+	width: 100%;
 	background-color: gray;
 }
-.box_b{
-	height: 25%;
-	max-width: 25%
+th{
 	padding: 5px;
-	background-color: black;
+}
+.box{
+	height: 100px;
+	padding: 5px;
+	box-sizing: border-box;
+	background-color: gray;
+	width: calc(25%-10px)
+	margin: 5px;
 }
 img{
 	padding-right: 10px;
 	padding-top: 10px;
-	padding-left: 10px	;	
+	padding-left: 10px;
 }
 p{
 	color: white;
 	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+.primer_texto p{
+	color: #000000;
+}
+#text_bg_color{
+	background-color: grey;
+	padding-top: 10px;
 }
